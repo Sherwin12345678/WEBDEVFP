@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111317;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #1f2125;
+    padding: 3rem 3.5rem;      
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5); 
+    width: 420px;            
+    text-align: center;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #f9ac54;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #35373b;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+button {
+    padding: 14px 0;
+    background-color: #d79447;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+a {
+    color: #f9ac54;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #35373b;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
