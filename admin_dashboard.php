@@ -55,7 +55,7 @@ $bookings = $result->fetch_all(MYSQLI_ASSOC);
         
         .bookings-table th, .bookings-table td {
             color: white;
-            padding: 12px 15px;
+            padding: 5px 8px;
             text-align: left;
             border-bottom: 1px solid var(--primary-color-light);
         }
@@ -132,7 +132,6 @@ $bookings = $result->fetch_all(MYSQLI_ASSOC);
                     <th>Trainer</th>
                     <th>Date</th>
                     <th>Time Slot</th>
-                    
                     <th>Notes</th>
                     <th>Actions</th>
                 </tr>
