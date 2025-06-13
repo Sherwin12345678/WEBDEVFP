@@ -49,6 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 <div class="form-container">
+    <button onclick="window.location.href='index.html'">Back</button>
     <h2>Login</h2>
     <?php if (isset($error)): ?>
         <div class="error-message"><?php echo $error; ?></div>

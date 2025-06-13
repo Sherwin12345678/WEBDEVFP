@@ -154,6 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </select>
                 
                 <select name="trainer" required>
+                    <option value="Self Train" <?php echo $booking['trainer'] == 'Self Train' ? 'selected' : ''; ?>>Self Train</option>
                     <option value="Coach Sherwin" <?php echo $booking['trainer'] == 'Coach Sherwin' ? 'selected' : ''; ?>>Coach Sherwin</option>
                     <option value="Coach Charlene" <?php echo $booking['trainer'] == 'Coach Charlene' ? 'selected' : ''; ?>>Coach Charlene</option>
                     <option value="Coach Patrice" <?php echo $booking['trainer'] == 'Coach Patrice' ? 'selected' : ''; ?>>Coach Patrice</option>

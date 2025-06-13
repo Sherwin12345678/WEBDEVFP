@@ -154,7 +154,8 @@ $bookings = $result->fetch_all(MYSQLI_ASSOC);
                             <a href="edit_booking.php?id=<?php echo $booking['id']; ?>" class="edit-btn">
                                 <i class="ri-edit-line"></i> Edit
                             </a>
-                            <a href="admin_dashboard.php?delete_id=<?php echo $booking['id']; ?>" class="delete-btn" onclick="return confirm('Are you sure you want to delete this booking?')">
+                            <a href="admin_dashboard.php?delete_id=<?php echo $booking['id']; ?>" class="delete-btn" 
+                               onclick="return confirm('Are you sure you want to delete this booking? This action cannot be undone.');">
                                 <i class="ri-delete-bin-line"></i> Delete
                             </a>
                         </td>
